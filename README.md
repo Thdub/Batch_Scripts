@@ -25,7 +25,7 @@
         - SendtoFolder
         - SendtoFolderName
         - SendtoNewFolder
-    - Toggle Firewall :
-        - ToggleFirewall
-        - ToggleFirewallOff
-        - ToggleFirewallOn
+    - Toggle Firewall : Toggle Windows firewall, while being in whitelist/secure mode (for example when using WFC).
+        - ToggleFirewall : On/Off toggle
+        - ToggleFirewallOff : Off toggle
+        - ToggleFirewallOn : On toggle
