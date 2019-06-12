@@ -8,8 +8,9 @@
     - Telemetry script 2019
 
 - Utilities :
-    - RemoveDuplicateLines
-        -Credits due to dbenham for his Jrepl.bat script
+    - RemoveDuplicateLines : Remove duplicate lines from any file with text.
+        - Usage : just drag and drop your file on to this script.
+        - Credits due to dbenham for his great JRepl.bat utility.
     - Restore_Start_Menu_Icons : Do you sometimes have blank icons in your Start Menu? Or new Icons assets to display in your start screen? Here's a simple script that will update the icon(s) for you.
     - WinDefenderToggle : Toggle Windows Defender On or Off
     - Program launchers :
