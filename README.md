@@ -9,14 +9,15 @@
 
 - Utilities :
     - RemoveDuplicateLines
+        -Credits due to dbenham for his Jrepl.bat script
     - Restore_Start_Menu_Icons
     - WinDefenderToggle
     - Program launchers :
-        - RegWorkshopX64_TI
-        - StartAcronisBackupWithServices
-        - StartServerManagerWithServices
-        - StartAcronisTrueImageWithServices
-        - StartWord
+        - RegWorkshopX64_TI : Launch Registry workshop as Trusted Installer (requires NSudo)
+        - StartAcronisBackupWithServices : Start Acronis Backup with its required services and disable them again after closing.
+        - StartAcronisTrueImageWithServices : Start Acronis True Image with its required services.
+        - StartServerManagerWithServices : Start Server Manager with its required services.
+        - StartWord : Start word with its (useless) required service and disable.
     - ScreenSnip :
         - ScreenSnipActiveWindow
         - ScreenSnipEnhanced
@@ -25,7 +26,12 @@
         - SendtoFolder
         - SendtoFolderName
         - SendtoNewFolder
+        - Notes : Needs Nircmd
+        - Download Nircmd : 
     - Toggle Firewall : Toggle Windows firewall, while being in whitelist/secure mode (for example when using WFC).
         - ToggleFirewall : On/Off toggle
         - ToggleFirewallOff : Off toggle
         - ToggleFirewallOn : On toggle
+        - Note : Needs NSudo and SetACL
+        - Donwload NSudo :
+        - Download SetACL
