@@ -18,11 +18,11 @@
     - Restore_Start_Menu_Icons : Do you sometimes have blank icons in your Start Menu? Or new Icons assets to display in your start screen? Here's a simple script that will update the icon(s) for you.
     - WinDefenderToggle : Toggle Windows Defender On or Off
     - Program launchers :
-        - RegWorkshopX64_TI : Launch Registry workshop as Trusted Installer (requires NSudo)
+        - RegWorkshopX64_TI : Launches Registry workshop as Trusted Installer (requires NSudo)
         - StartAcronisBackupWithServices : Start Acronis Backup with its required services and disable them again after closing.
         - StartAcronisTrueImageWithServices : Start Acronis True Image with its required services.
         - StartServerManagerWithServices : Start Server Manager with its required services.
-        - StartWord : Start word with its (useless) required service and disable.
+        - StartWord : Start Microsoft Word with its (useless) required service and disable right away.
     - ScreenSnip :
         - ScreenSnipActiveWindow : Takes a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time. 
         - ScreenSnipEnhanced : Opens Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!
