@@ -1,8 +1,8 @@
 # Batch Scripts
 - Maintenance : 
-    - ClearEventViewerLogs: Clear EventViewer logs.
-    - RemovePowershellDuplicateLines : Remove duplicate commands from your Powershell console host history.
-    - ResetNotificationAreaIconsCache : Reset notification area cache.
+    - ClearEventViewerLogs: Clear event viewer logs.
+    - RemovePowershellDuplicateLines : Removes duplicate commands from your Powershell console host history.
+    - ResetNotificationAreaIconsCache : Resets notification area cache.
 
 - Privacy :
     - Telemetry script 2019
