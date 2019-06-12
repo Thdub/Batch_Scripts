@@ -11,10 +11,10 @@
 
 # Utilities :
     - RemoveDuplicateLines : Remove duplicate lines from any file with text.
-        - Usage : just drag and drop your file on to this script.
-        - Credits due to dbenham for his great JRepl.bat utility.
-        - Notes : It will keep last duplicatd occurence, and stripping blank lines. 
-        - Disclaimer : Only works with UTF-8 encoded files for the moment (so better avoid .xml, .cfg, etc. for now) 
+        Usage : just drag and drop your file on to this script.
+        Credits due to dbenham for his great JRepl.bat utility.
+        Note : It will keep last duplicatd occurence, and stripping blank lines. 
+        Disclaimer : Only works with UTF-8 encoded files for the moment (so better avoid .xml, .cfg, etc. for now) 
     - Restore_Start_Menu_Icons : Do you sometimes have blank icons in your Start Menu? Or new Icons assets to display in your start screen? Here's a simple script that will update the icon(s) for you.
     - WinDefenderToggle : Toggle Windows Defender On or Off
     - Program launchers :
@@ -27,8 +27,8 @@
         - ScreenSnipActiveWindow : Takes a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time. 
         - ScreenSnipEnhanced : Opens Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!
         - ScreenSnipFullScreen : Takes a full screen screenshot and save it on your desktop with date and time. 
-        - Notes : Needs Nircmd. 
-        - Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own Nircmd path.
+        Note : Needs Nircmd. 
+        Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own Nircmd path.
     - Send to Context Menu : Send selected file(s) and/or folder(s) using "Send to" context menu.
         - SendtoFolder : Display a prompt to create/name location and move selected file(s) and/or folder(s) there.
         - SendtoFolderName : Move selected file(s)/and or folder(s) to a folder named as selection.
@@ -37,7 +37,7 @@
         - ToggleFirewall : On/Off toggle
         - ToggleFirewallOff : Off toggle
         - ToggleFirewallOn : On toggle
-        - Note : Needs NSudo and SetACL
+        Note : Needs NSudo and SetACL
   
   
 - Download Nircmd : https://www.nirsoft.net/utils/nircmd-x64.zip
