@@ -19,10 +19,11 @@
         - StartServerManagerWithServices : Start Server Manager with its required services.
         - StartWord : Start word with its (useless) required service and disable.
     - ScreenSnip :
-        - ScreenSnipActiveWindow : Takes a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time. Replace NIRCMDPATH value with your own nircmd path.
+        - ScreenSnipActiveWindow : Takes a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time. 
         - ScreenSnipEnhanced : Opens Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!
         - ScreenSnipFullScreen : Takes a full screen screenshot and save it on your desktop with date and time. 
-        - Notes : Needs Nircmd. Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own Nircmd        path...
+        - Notes : Needs Nircmd. 
+        - Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own Nircmd path.
     - Send to Context Menu : Send selected file(s) and/or folder(s) using "Send to" context menu.
         - SendtoFolder : Display a prompt to create/name location and move selected file(s) and/or folder(s) there.
         - SendtoFolderName : Move selected file(s)/and or folder(s) to a folder named as selection.
