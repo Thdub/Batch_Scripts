@@ -11,6 +11,8 @@
     - RemoveDuplicateLines : Remove duplicate lines from any file with text.
         - Usage : just drag and drop your file on to this script.
         - Credits due to dbenham for his great JRepl.bat utility.
+        - Notes : It will keep last duplicatd occurence, and stripping blank lines. 
+        - Disclaimer : Only works with UTF-8 encoded files for the moment (so better avoid .xml, .cfg, etc. for now) 
     - Restore_Start_Menu_Icons : Do you sometimes have blank icons in your Start Menu? Or new Icons assets to display in your start screen? Here's a simple script that will update the icon(s) for you.
     - WinDefenderToggle : Toggle Windows Defender On or Off
     - Program launchers :
