@@ -1,13 +1,15 @@
 # Batch Scripts
-- Maintenance : 
+# Maintenance :
     - ClearEventViewerLogs: Clear event viewer logs.
     - RemovePowershellDuplicateLines : Removes duplicate commands from your Powershell console host history.
     - ResetNotificationAreaIconsCache : Resets notification area cache.
 
-- Privacy :
+
+# Privacy :
     - Telemetry script 2019
 
-- Utilities :
+
+# Utilities :
     - RemoveDuplicateLines : Remove duplicate lines from any file with text.
         - Usage : just drag and drop your file on to this script.
         - Credits due to dbenham for his great JRepl.bat utility.
@@ -36,7 +38,8 @@
         - ToggleFirewallOff : Off toggle
         - ToggleFirewallOn : On toggle
         - Note : Needs NSudo and SetACL
-        
+  
+  
 - Download Nircmd : https://www.nirsoft.net/utils/nircmd-x64.zip
 - Donwload NSudo : https://github.com/M2Team/NSudo/releases/download/6.2/NSudo_6.2.1812.31_All_Binary.zip
 - Download SetACL : https://helgeklein.com/download/#
