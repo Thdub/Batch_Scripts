@@ -8,7 +8,7 @@
     - Telemetry script 2019
 
 # Utilities
-    - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file. Keeps last duplicated occurence.
+    - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file.
         Usage : just drag and drop your file on to this script.
         Keeps last duplicated occurence.
         Supports files with ASCII, UTF-8 and UNICODE character encoding
