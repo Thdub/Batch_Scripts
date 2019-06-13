@@ -8,7 +8,8 @@
     - Telemetry script 2019
 
 # Utilities
-    - RemoveDuplicateLines : Remove duplicate lines from any file with text.
+    - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file
+    - RemoveDuplicateLines : Remove duplicate lines from any text-based file, while preserving blank lines.
         Usage : just drag and drop your file on to this script.
         Note : It will keep last duplicated occurence, and stripping blank lines. 
         Disclaimer : Only works with UTF-8 encoded files for the moment (so better avoid .xml, .cfg, etc. for now)
