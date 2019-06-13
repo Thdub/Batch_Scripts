@@ -1,9 +1,7 @@
 # Batch Scripts
 # Maintenance
     - ClearEventViewerLogs: Clear event viewer logs.
-
     - RemovePowershellDuplicateLines : Removes duplicate commands from your Powershell console host history.
-
     - ResetNotificationAreaIconsCache : Resets notification area cache.
 
 # Privacy
@@ -28,38 +26,27 @@
     
     Program launchers
         - RegWorkshopX64_TI : Launches Registry workshop as Trusted Installer (requires NSudo)
-    
-        - StartAcronisBackupWithServices : Start Acronis Backup with its required services and disable them again after closing.
-        
-        - StartAcronisTrueImageWithServices : Start Acronis True Image with its required services.
-        
-        - StartServerManagerWithServices : Start Server Manager with its required services.
-        
+        - StartAcronisBackupWithServices : Start Acronis Backup with its required services and disable them again after closing.        
+        - StartAcronisTrueImageWithServices : Start Acronis True Image with its required services.        
+        - StartServerManagerWithServices : Start Server Manager with its required services.        
         - StartWord : Start Microsoft Word with its (useless) required service and disable right away.
     
     ScreenSnip
-        - ScreenSnipActiveWindow : Takes a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time. 
-        
-        - ScreenSnipEnhanced : Opens Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!
-        
+        - ScreenSnipActiveWindow : Takes a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time.         
+        - ScreenSnipEnhanced : Opens Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!        
         - ScreenSnipFullScreen : Takes a full screen screenshot and save it on your desktop with date and time. 
           Note : Needs Nircmd. 
           Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own Nircmd path.
     
     Send to Context Menu : Send selected file(s) and/or folder(s) using "Send to" context menu.
-        - SendtoFolder : Display a prompt to create/name location and move selected file(s) and/or folder(s) there.
-        
-        - SendtoFolderName : Move selected file(s)/and or folder(s) to a folder named as selection.
-        
-        - SendtoNewFolder : Move selected file(s)/and or folder(s) to New folder and rename New folder incrementally if the folder already exists: New folder (2) New folder (3) etc. (as windows does).
-        
+        - SendtoFolder : Display a prompt to create/name location and move selected file(s) and/or folder(s) there.        
+        - SendtoFolderName : Move selected file(s)/and or folder(s) to a folder named as selection.        
+        - SendtoNewFolder : Move selected file(s)/and or folder(s) to New folder and rename New folder incrementally if the folder already exists: New folder (2) New folder (3) etc. (as windows does).       
         - Add_to_Context_Menu : Creates shortcuts to the scripts in "Send to" context menu.
     
     Toggle Firewall : Toggle Windows firewall, while being in whitelist/secure mode (for example when using WFC).
-        - ToggleFirewall : On/Off toggle
-        
-        - ToggleFirewallOff : Off toggle
-        
+        - ToggleFirewall : On/Off toggle  
+        - ToggleFirewallOff : Off toggle       
         - ToggleFirewallOn : On toggle
           Note : Needs NSudo and SetACL
   
