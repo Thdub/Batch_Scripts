@@ -8,11 +8,15 @@
     - Telemetry script 2019
 
 # Utilities
-    - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file
+    - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file. Keeps last duplicated occurence.
+        Usage : just drag and drop your file on to this script.
+        Keeps last duplicated occurence.
+        Supports files with ASCII, UTF-8 and UNICODE character encoding
+        Credits due to dbenham for his great JRepl.bat utility. 
     - RemoveDuplicateLines : Remove duplicate lines from any text-based file, while preserving blank lines.
         Usage : just drag and drop your file on to this script.
-        Note : It will keep last duplicated occurence, and stripping blank lines. 
-        Disclaimer : Only works with UTF-8 encoded files for the moment (so better avoid .xml, .cfg, etc. for now)
+        Keeps last duplicated occurence.
+        Supports files with ASCII, UTF-8 and UNICODE character encoding
         Credits due to dbenham for his great JRepl.bat utility. 
     - Restore_Start_Menu_Icons : Do you sometimes have blank icons in your Start Menu? Or new Icons assets to display in your start screen? Here's a simple script that will update the icon(s) for you.
     - WinDefenderToggle : Toggle Windows Defender On or Off
