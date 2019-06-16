@@ -8,7 +8,9 @@
 @echo off
 if exist "%TEMP%\lock_process.tmp" ( goto :Batch) else ( echo repl>"%TEMP%\lock_process.tmp")
 set "PS_History=%AppData%\Microsoft\Windows\PowerShell\PSReadLine\ConsoleHost_history.txt"
-"%~dpnx0" "^(.*)(?:\r?\n|\r)(?=[\s\S]*^\1$^)" "" /m /f "%PS_History%" /o -
+call "%~f0" "\c([\c\r\n]+)\r?\n(?=[\s\S]*\c\1$)" "" /xseq /m /f "%~f1" /o -
+exit /b
+
 
 ============= :Batch portion ===========
 setlocal disableDelayedExpansion
@@ -208,7 +210,6 @@ exit /b %errorlevel%
 
 :execute
 cscript.exe //E:JScript //nologo %/UTF% "%/SCRIPT%" %/FIND% %/REPL%
-PowerShell -NoProfile -ExecutionPolicy Bypass "(Get-Content '%PS_History%') | Set-Content '%PS_History%'"
 if not defined /RTN exit /b %errorlevel%
 
 ::returnVar
