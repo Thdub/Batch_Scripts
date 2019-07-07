@@ -10,14 +10,18 @@
 # Utilities
     - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file.
         Usage : just drag and drop your file on to this script.
-        Keeps last duplicated occurence.
-        Supports files with ASCII, UTF-8 and UNICODE character encoding
+        PRESERVES initial line ordering.
+        Keeps last duplicated occurence. 
+        Note: Unlike UNIQ which only works on sorted files/list, because it can only remove adjacent duplicate lines (+ you have to use SORT in conjunction if your lines are not initially ordered, which means losing initial line ordering), the tool will preserve your line ordering (or disorder): handy for batch or big .reg files...
+        Supports files with ASCII, UTF-8 and UNICODE character encoding.
         Credits due to dbenham for his great JRepl.bat utility. 
     
     - RemoveDuplicateLines : Remove duplicate lines from any text-based file, while preserving blank lines.
         Usage : just drag and drop your file on to this script.
-        Keeps last duplicated occurence.
-        Supports files with ASCII, UTF-8 and UNICODE character encoding
+        PRESERVES initial line ordering.
+        Keeps last duplicated occurence. 
+        Note: Unlike UNIQ which only works on sorted files/list, because it can only remove adjacent duplicate lines (+ you have to use SORT in conjunction if your lines are not initially ordered, which means losing initial line ordering), the tool will preserve your line ordering (or disorder): handy for batch or big .reg files...
+        Supports files with ASCII, UTF-8 and UNICODE character encoding.
         Credits due to dbenham for his great JRepl.bat utility. 
     
     - Restore_Start_Menu_Icons : Do you sometimes have blank icons in your Start Menu? Or new Icons assets to display in your start screen? Here's a simple script that will update the icon(s) for you.
