@@ -1,13 +1,15 @@
 # Batch Scripts
 # Maintenance
     - ClearEventViewerLogs: Clear event viewer logs.
-    - RemovePowershellDuplicateLines : Removes duplicate commands from your Powershell console host history.
-    - ResetNotificationAreaIconsCache : Resets notification area cache.
+    - RemovePowershellDuplicateLines : Remove duplicate commands from your Powershell console host history.
+    - ResetNotificationAreaIconsCache : Reset notification area cache.
 
 # Privacy
     - Telemetry script 2019
 
 # Utilities
+    - HID_Devices_Power_ Management_tab : Disable "allow the computer to turn off this device to save power" for HID Devices under PowerManagement tab in Device Manager
+    
     - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file.
         Usage : just drag and drop your file on to this script.
         PRESERVES initial line ordering.
@@ -29,16 +31,16 @@
     - WinDefenderToggle : Toggle Windows Defender On or Off
     
     Program launchers
-        - RegWorkshopX64_TI : Launches Registry workshop as Trusted Installer (requires NSudo)
+        - RegWorkshopX64_TI : Launch Registry workshop as Trusted Installer (requires NSudo)
         - StartAcronisBackupWithServices : Start Acronis Backup with its required services and disable them again after closing.        
         - StartAcronisTrueImageWithServices : Start Acronis True Image with its required services.        
         - StartServerManagerWithServices : Start Server Manager with its required services.        
         - StartWord : Start Microsoft Word with its (useless) required service and disable right away.
     
     ScreenSnip
-        - ScreenSnipActiveWindow : Takes a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time.         
-        - ScreenSnipEnhanced : Opens Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!        
-        - ScreenSnipFullScreen : Takes a full screen screenshot and save it on your desktop with date and time. 
+        - ScreenSnipActiveWindow : Take a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time.         
+        - ScreenSnipEnhanced : Open Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!        
+        - ScreenSnipFullScreen : Take a full screen screenshot and save it on your desktop with date and time. 
           Note : Needs Nircmd. 
           Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own Nircmd path.
     
