@@ -61,8 +61,9 @@
     for /f "delims=" %%i in ('reg query "HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Enum\USB" /s /v "DeviceSelectiveSuspended" /t REG_DWORD') do call :ProcessLine5 "%%i"
     if not %Detection5_Count% == 0 (
 		endlocal
-		<nul set /p dummyName=[92m Done.[97m
-		timeout /t 3 /nobreak >NUL 2>&1
+		timeout /t 1 /nobreak >NUL 2>&1
+		<nul set /p dummyName=[92m Done.[97m[?25l
+		timeout /t 2 /nobreak >NUL 2>&1
 		exit /b
 	)
 
