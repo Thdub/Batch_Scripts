@@ -1,4 +1,6 @@
 <# : Shortcut Creator
+:: Code Snippet by Thomas Dubreuil
+:: https://github.com/Thdub
 @echo off
 setlocal
 set "PScommand=C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass"
