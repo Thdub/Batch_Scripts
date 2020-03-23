@@ -1,4 +1,6 @@
 <# : Batch portion
+:: Code snippet by Thomas Dubreuil
+:: https://github.com/Thdub
 @echo off
 :: Set Start_Folder to 1 : Start browsing at 'This PC'
 :: Set Start_Folder to 2 : Start Dialog at 'Start Menu'
