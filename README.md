@@ -8,7 +8,8 @@
     - Telemetry script 2019
 
 # Utilities
-    - HID_Devices_Power_ Management_tab : Disable "allow the computer to turn off this device to save power" for HID Devices under PowerManagement tab in Device Manager
+    - Set Selective Suspend : Disable/untick "allow the computer to turn off this device to save power" for all devices under PowerManagement tab in Device Manager.
+      Included also a restore option.
     
     - Remove_duplicate_and_blank_lines : Remove duplicate lines, blank lines or lines containing only white space from any text-based file.
         Usage : just drag and drop your file on to this script.
