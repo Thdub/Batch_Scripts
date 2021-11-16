@@ -35,8 +35,8 @@
         - ScreenSnipActiveWindow : Take a screenshot of your active/selected window only, like explorer, notepad, or        firefox etc. after 2 seconds delay (which gives you time to open a .txt even), and save it on your desktop with date and time.         
         - ScreenSnipEnhanced : Open Windows Screen Snip and saves your .png screenshot with date and time directly on your desktop. You don't need anymore to press save as, or copy/paste clipboard to another application, yeah!!        
         - ScreenSnipFullScreen : Take a full screen screenshot and save it on your desktop with date and time. 
-          Note : Needs Nircmd. 
-          Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own Nircmd path.
+          Important note : Needs Nircmd to work https://www.nirsoft.net/utils/nircmd.html
+          Replace "C:\Program Files\System Tools\System Utilities\NirCmd\nircmdc.exe" with your own nircmd.exe path
     
     Send to Context Menu : Send selected file(s) and/or folder(s) using "Send to" context menu.
         - SendtoFolder : Display a prompt to create/name location and move selected file(s) and/or folder(s) there.        
